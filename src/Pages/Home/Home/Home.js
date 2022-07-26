@@ -5,8 +5,19 @@ const Home = () => {
     return (
         <div>
            <header className='bg-black'>
-            <h1 className='text-white font-bold text-xl'>Hello, It's me</h1>
+
+
+            <container className='container flex items-center flex-start content-center bg-black'>
+                <div className='text'>
+                <h1 className='text-white font-bold text-xl'>Hello, It's me</h1>
             <br />
+
+            <h6 className='text-white font-extrabold text-6xl text-opacity-25 scale-50'>
+                Product <br />
+                designer
+            </h6>
+
+
            <div className='flex '>
            <h6 className='text-white font-extrabold text-6xl'>Ojieame</h6> 
             <span className='dot vf font-extrabold text-6xl'>.</span>
@@ -19,6 +30,19 @@ const Home = () => {
            </p>
            </span>
       
+
+
+                </div>
+
+                <div>
+
+                    <img className='image' src="https://uploads-ssl.webflow.com/5b32655069229148933e1636/5b33609ae43d9d574f5a17ab_lm.jpg" alt="" />
+                </div>
+
+
+
+            </container>
+            
 
            </header>
         </div>

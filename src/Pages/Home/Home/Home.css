@@ -1,8 +1,14 @@
 
-
+.text{
+    margin-left: 240px;
+}
 .vf{
     color: #5f99ff;
     height: 2rem;
     font-weight: 1000 !important;
 
+}
+.image{
+    max-width: 75% !important;
+    margin-left: 170px;
 }
