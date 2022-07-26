@@ -1,11 +1,12 @@
 import React from 'react';
+import Projects from '../Projects/Projects';
 import "./Home.css"
 
 const Home = () => {
     return (
-        <div className='bg-black'>
+        <div className='md:bg-black'>
            
-            <section className='container flex items-center flex-start content-center bg-black'>
+            <section className='container md:flex items-center flex-start content-center bg-black'>
                 <div className='text'>
                 <h1 className='text-white font-bold text-xl'>Hello, It's me</h1>
             <br />
@@ -16,7 +17,7 @@ const Home = () => {
             </h6>
 
 
-           <div className='flex '>
+           <div className='lg:flex '>
            <h6 className='text-white font-extrabold text-6xl'>Ojieame</h6> 
             <span className='dot vf font-extrabold text-6xl'>.</span>
            </div>
@@ -34,7 +35,7 @@ const Home = () => {
 
                 <div>
 
-                    <img className='image' src="https://uploads-ssl.webflow.com/5b32655069229148933e1636/5b33609ae43d9d574f5a17ab_lm.jpg" alt="" />
+                    <img className='image md:h-full md:w-75% ' src="https://uploads-ssl.webflow.com/5b32655069229148933e1636/5b33609ae43d9d574f5a17ab_lm.jpg" alt="" />
                 </div>
 
                
@@ -47,7 +48,7 @@ const Home = () => {
             {/* 2nd header part */}
 
 
-            <section className='container flex items-center flex-start content-center bg-black'>
+            <section className='container md:flex items-center md:flex-start content-center bg-black'>
                 <div className='text'>
                 <h1 className='text-blue-600 font-bold text-xl'>My Skillset</h1>
             <br />
@@ -56,7 +57,7 @@ const Home = () => {
 
 
       
-           <h6 className='text-white font-extrabold text-5xl ml-240px '>Graphic Design, Interface Design &
+           <h6 className='text-white font-extrabold text-5xl ml-240px w-1/8 '>Graphic Design, Interface Design &
 User Experience</h6> 
           
       
@@ -73,7 +74,7 @@ User Experience</h6>
                 <div>
 
               <span>
-              <p className='text-white text-left part '>
+              <p className='text-white md:ml-170px text-left part '>
                 I specialize in building complex web applications, leading front-end teams, digital product design and developing visual design systems. I enjoy creating effortless user experience and designing delightful digital products. The entire process of going from a concept to release and gathering user’s feedback on either client’s or my own products is what makes me wake up everyday!
 I worked with numerous clients from all around the world from early startups to well-established companies. I always seek new opportunities for cooperation on projects around interesting dashboards, design systems or landing pages. Let’s create something awesome together!
                 </p>
@@ -85,6 +86,9 @@ I worked with numerous clients from all around the world from early startups to 
 
 
             </section>
+            <Projects></Projects>
+
+          
             
 
       

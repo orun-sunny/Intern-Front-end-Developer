@@ -1,0 +1,33 @@
+.text{
+    margin-left: 240px;
+}
+
+.plus{
+
+    color: #5f99ff;
+    height: 5rem;
+    font-weight: 1000 !important;
+    white-space: 5px;
+
+}
+.headline{
+    padding-top: 10rem;
+    
+
+}
+.projects{
+    margin-left: 240px;
+    
+
+}
+.projects.number{
+    --tw-text-opacity: 0.2 !important
+    ;
+}
+
+.background{
+    max-width: 75% !important;
+    margin-left: 350px;
+
+}
+
