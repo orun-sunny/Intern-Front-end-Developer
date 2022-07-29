@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Footer/Footer";
 import "./Career.css";
 
 const Career = () => {
@@ -98,6 +99,7 @@ const Career = () => {
           </span>
         </div>
       </section>
+      <Footer></Footer>
     </div>
   );
 };
