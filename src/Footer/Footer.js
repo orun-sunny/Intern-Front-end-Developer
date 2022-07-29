@@ -47,22 +47,22 @@ const Footer = () => {
           </h6>
 
           <br />
+          <span className="pr-8">
+            <p className="text-white md:ml-170px  Footer-part ">
+              I specialize in building complex web applications, leading
+              front-end teams, digital product design and developing visual
+              design systems. I enjoy creating effortless user experience and
+              designing delightful digital products. The entire process of going
+              from a concept to release and gathering user’s feedback on either
+              client’s or my own products is what makes me wake up everyday! I
+              worked with numerous clients from all around the world from early
+              startups to well-established companies. I always seek new
+              opportunities for cooperation on projects around interesting
+              dashboards, design systems or landing pages. Let’s create
+              something awesome together!
+            </p>
+          </span>
         </div>
-
-        <span>
-          <p className="text-white md:ml-170px text-left part ">
-            I specialize in building complex web applications, leading front-end
-            teams, digital product design and developing visual design systems.
-            I enjoy creating effortless user experience and designing delightful
-            digital products. The entire process of going from a concept to
-            release and gathering user’s feedback on either client’s or my own
-            products is what makes me wake up everyday! I worked with numerous
-            clients from all around the world from early startups to
-            well-established companies. I always seek new opportunities for
-            cooperation on projects around interesting dashboards, design
-            systems or landing pages. Let’s create something awesome together!
-          </p>
-        </span>
       </div>
     </div>
   );
