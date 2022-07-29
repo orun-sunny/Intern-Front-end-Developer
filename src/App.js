@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Home from "./Pages/Home/Home/Home";
-
+import Projects from "./Pages/Home/Projects/Projects";
 
 
 function App() {
