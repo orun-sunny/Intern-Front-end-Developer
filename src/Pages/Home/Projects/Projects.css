@@ -1,0 +1,53 @@
+.text{
+    margin-left: 240px;
+}
+
+.plus{
+
+    color: #5f99ff;
+    height: 5rem;
+    font-weight: 1000 !important;
+    white-space: 5px;
+
+}
+.headline{
+    padding-top: 10rem;
+    
+
+}
+.projects{
+    margin-left: 240px;
+    
+
+}
+.projects.number{
+    --tw-text-opacity: 0.2 !important
+    ;
+}
+
+.background{
+    max-width: 75% !important;
+    margin-left: 350px;
+
+}
+
+.recent-project{
+    margin-left: 240px;
+
+}
+
+.recent-projects1{
+    position: relative;
+    width: 30%;
+    height: auto;
+    box-sizing: border-box;
+    display: block;
+    transform: translate3d(0px, 178px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    margin-left: 170px;
+    border-radius:10px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 458ms cubic-bezier(.77, 0, .175, 1);
+}
+
